@@ -1,0 +1,6 @@
+-- transparent
+-------------
+-- setup ( no need to call setup )
+-- vim.g.transparent_groups = vim.list_extend(vim.g.transparent_groups or {}, { "ExtraGroup" })
+-- for lualine transparent
+-- require("transparent").clear_prefix("lualine")
