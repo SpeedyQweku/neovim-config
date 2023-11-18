@@ -61,7 +61,7 @@ lsp_zero.setup_servers({'lua_ls', 'rust_analyzer', 'tsserver'})
 --if you want mason to handle the servers
 require("mason").setup({})
 require("mason-lspconfig").setup({
-	ensure_installed = { "tsserver", "rust_analyzer", "lua_ls", "clangd", "pyright" },
+	ensure_installed = { "rust_analyzer", "lua_ls", "clangd", "pyright" },
 	handlers = {
 		lsp_zero.default_setup,
 		clangd = function()

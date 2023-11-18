@@ -7,7 +7,6 @@ treesitter.setup({
 		"cpp",
 		"lua",
 		"rust",
-		"ruby",
 		"vim",
 		"json",
 		"javascript",
