@@ -11,3 +11,24 @@ using
 
 to handle **[nvim-cmp](https://github.com/hrsh7th/nvim-cmp)** with other
 plugins...
+
+---
+
+## Install
+
+#### Deps
+
+- fd
+- neovim
+- rg
+
+```bash
+[ -f ~/.config/nvim/ ] && mv ~/.config/nvim ~/.config/nvim-backup  
+git clone https://github.com/punixcorn/neovim-config ~/.config/nvim
+```
+
+#### Run neovim to complete
+
+```bash
+nvim
+```

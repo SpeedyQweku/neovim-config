@@ -196,11 +196,11 @@ local plugins = {
 		dependencies = { "nvim-lua/plenary.nvim" },
 		config = function()
 			require("crates").setup({
-				src = {
-					cmp = {
-						enabled = true,
-					},
-				},
+				-- src = {
+				-- 	cmp = {
+				-- 		enabled = true,
+				-- 	},
+				-- },
 			})
 		end,
 	},
