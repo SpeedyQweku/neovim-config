@@ -2,5 +2,5 @@
 -------------
 
 --  colorscheme
-vim.cmd([[colorscheme horizon]])
+vim.cmd([[colorscheme meh]])
 --vim.cmd([[colorscheme pywal]])

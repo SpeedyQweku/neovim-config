@@ -86,7 +86,6 @@ opt.cursorline = true
 opt.listchars = { tab = ">-", trail = "~", space = "·", eol = "↵" }
 opt.whichwrap = "<,>,h,l,[,]"
 
-
 -- split windows
 opt.splitright = true -- splits vertical window to the right
 opt.splitbelow = true -- splits horizontal window to the bottom

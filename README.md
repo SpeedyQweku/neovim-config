@@ -21,6 +21,7 @@ plugins...
 - fd
 - neovim
 - rg
+- python-pynvim
 
 ```bash
 [ -f ~/.config/nvim/ ] && mv ~/.config/nvim ~/.config/nvim-backup  

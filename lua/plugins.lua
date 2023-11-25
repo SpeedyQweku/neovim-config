@@ -217,12 +217,12 @@ local plugins = {
 	},
 
 	-- auto save
-	{
-		"Pocco81/auto-save.nvim",
-		config = function()
-			require("auto-save").setup({})
-		end,
-	},
+	-- {
+	-- 	"Pocco81/auto-save.nvim",
+	-- 	config = function()
+	-- 		require("auto-save").setup({})
+	-- 	end,
+	-- },
 
 	-- pywal colors
 	{ "AlphaTechnolog/pywal.nvim" },
